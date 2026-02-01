@@ -2,6 +2,7 @@
   "name": "ggsd",
   "version": "0.1.0",
   "description": "Gemini Get Shit Done - Spec-driven development workflow for Gemini CLI with MCP",
+  "type": "module",
   "main": "src/index.js",
   "bin": {
     "ggsd": "./bin/ggsd.js"

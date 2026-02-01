@@ -8,12 +8,22 @@
 import { GoogleGenerativeAI } from '@google/generative-ai';
 
 // Model selection based on task type
+//
+// Free tier reality (as of Jan 2026):
+//   - 2.5 Flash: ~15 RPM, works well, best free-tier workhorse
+//   - 2.5 Flash-Lite: higher RPM, cheaper, good for quick/simple tasks
+//   - 2.5 Pro: effectively removed from free tier (0 quota for many accounts)
+//
+// Strategy: use Flash for everything on free tier.
+// Flash-Lite for high-volume lightweight tasks (verification, simple checks).
+// If the user upgrades to a paid key, swap PLANNING/EXECUTION/DEBUGGING to
+// 'gemini-2.5-pro' for better reasoning quality.
 export const MODELS = {
-  RESEARCH: 'gemini-2.0-flash-exp',      // Fast parallel research
-  PLANNING: 'gemini-exp-1206',           // Deep reasoning
-  EXECUTION: 'gemini-exp-1206',          // Code generation
-  VERIFICATION: 'gemini-2.0-flash-exp',  // Quick checks
-  DEBUGGING: 'gemini-exp-1206'           // Complex diagnosis
+  RESEARCH: 'gemini-2.5-flash',          // Parallel research (good reasoning + speed)
+  PLANNING: 'gemini-2.5-flash',          // Plan creation (Pro would be ideal, but free tier doesn't support it)
+  EXECUTION: 'gemini-2.5-flash',         // Code generation
+  VERIFICATION: 'gemini-2.5-flash-lite', // Quick checks — lighter model, higher RPM
+  DEBUGGING: 'gemini-2.5-flash'          // Complex diagnosis
 };
 
 // Retry configuration
