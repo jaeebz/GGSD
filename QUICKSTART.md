@@ -19,7 +19,7 @@ Get up and running with Gemini Get Shit Done in under 5 minutes.
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/ggsd.git
+git clone https://github.com/jaeebz/GGSD.git
 cd ggsd
 
 # Run the setup script
@@ -573,7 +573,7 @@ Now that you know the basics, build something you actually need:
 
 - **Documentation**: [Full docs](docs/README.md)
 - **Examples**: [Example projects](examples/)
-- **Issues**: [GitHub Issues](https://github.com/YOUR_USERNAME/ggsd/issues)
+- **Issues**: [GitHub Issues](https://github.com/jaeebz/GGSD/issues)
 - **Original**: [Get Shit Done by TÂCHES](https://github.com/glittercowboy/get-shit-done)
 
 ---

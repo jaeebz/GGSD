@@ -31,12 +31,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/YOUR_USERNAME/ggsd.git"
+    "url": "https://github.com/jaeebz/GGSD.git"
   },
   "bugs": {
-    "url": "https://github.com/YOUR_USERNAME/ggsd/issues"
+    "url": "https://github.com/jaeebz/GGSD/issues"
   },
-  "homepage": "https://github.com/YOUR_USERNAME/ggsd#readme",
+  "homepage": "https://github.com/jaeebz/GGSD#readme",
   "engines": {
     "node": ">=18.0.0"
   },

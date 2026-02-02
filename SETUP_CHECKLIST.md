@@ -78,9 +78,9 @@ Use this checklist to get GGSD set up and pushed to GitHub.
 
 ### Connect Local Repo to GitHub
 - [ ] Copy your GitHub username for the commands below
-- [ ] Add remote (replace YOUR_USERNAME):
+- [ ] Add remote (replace jaeebz):
   ```bash
-  git remote add origin https://github.com/YOUR_USERNAME/ggsd.git
+  git remote add origin https://github.com/jaeebz/GGSD.git
   ```
 
 - [ ] Verify remote is set:
@@ -130,7 +130,7 @@ Attribution: Original work by TÂCHES (glittercowboy)"
 
 - [ ] Visit your repo on GitHub to verify files are there:
   ```
-  https://github.com/YOUR_USERNAME/ggsd
+  https://github.com/jaeebz/GGSD
   ```
 
 ---
@@ -246,7 +246,7 @@ Attribution: Original work by TÂCHES (glittercowboy)"
 
 ### Update README with Your Username
 
-- [ ] Edit README.md and replace `YOUR_USERNAME` with your actual GitHub username in these sections:
+- [ ] Edit README.md and replace `jaeebz` with your actual GitHub username in these sections:
   - Repository links in badges
   - Installation instructions
   - Any other URLs
@@ -255,12 +255,12 @@ Attribution: Original work by TÂCHES (glittercowboy)"
   ```json
   "repository": {
     "type": "git",
-    "url": "https://github.com/YOUR_USERNAME/ggsd.git"
+    "url": "https://github.com/jaeebz/GGSD.git"
   },
   "bugs": {
-    "url": "https://github.com/YOUR_USERNAME/ggsd/issues"
+    "url": "https://github.com/jaeebz/GGSD/issues"
   },
-  "homepage": "https://github.com/YOUR_USERNAME/ggsd#readme"
+  "homepage": "https://github.com/jaeebz/GGSD#readme"
   ```
 
 - [ ] Commit these changes:
@@ -455,7 +455,7 @@ Mark your progress:
 ### Resources
 
 - **Original GSD**: https://github.com/glittercowboy/get-shit-done
-- **Your Repo**: https://github.com/YOUR_USERNAME/ggsd
+- **Your Repo**: https://github.com/jaeebz/GGSD
 - **Gemini API**: https://ai.google.dev/
 - **MCP Docs**: https://github.com/modelcontextprotocol
 

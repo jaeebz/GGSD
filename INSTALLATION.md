@@ -43,7 +43,7 @@ Choose your preferred method:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/YOUR_USERNAME/ggsd.git
+git clone https://github.com/jaeebz/GGSD.git
 
 # 2. Navigate to directory
 cd ggsd
@@ -71,7 +71,7 @@ If you prefer manual control:
 #### Step 1: Clone Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/ggsd.git
+git clone https://github.com/jaeebz/GGSD.git
 cd ggsd
 ```
 
@@ -143,7 +143,7 @@ For contributing to GGSD:
 # 1. Fork the repository on GitHub
 
 # 2. Clone YOUR fork
-git clone https://github.com/YOUR_USERNAME/ggsd.git
+git clone https://github.com/jaeebz/GGSD.git
 cd ggsd
 
 # 3. Add upstream remote (original repo)
@@ -485,7 +485,7 @@ chmod +x setup.sh
 
 3. Fix remote URL:
    ```bash
-   git remote set-url origin https://github.com/YOUR_USERNAME/ggsd.git
+   git remote set-url origin https://github.com/jaeebz/GGSD.git
    ```
 
 ---
@@ -592,8 +592,8 @@ After successful installation:
 
 ## 🆘 Still Having Issues?
 
-- **GitHub Issues**: https://github.com/YOUR_USERNAME/ggsd/issues
-- **Discussions**: https://github.com/YOUR_USERNAME/ggsd/discussions
+- **GitHub Issues**: https://github.com/jaeebz/GGSD/issues
+- **Discussions**: https://github.com/jaeebz/GGSD/discussions
 - **Original GSD**: https://github.com/glittercowboy/get-shit-done
 
 ---

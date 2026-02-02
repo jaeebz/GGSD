@@ -41,15 +41,15 @@ After creating the GitHub repo, you'll see instructions. Here's what to do:
 # Make sure you're in the ggsd directory
 cd /Users/jaeebzzeen/Developer/ggsd
 
-# Add GitHub as remote (replace YOUR_USERNAME)
-git remote add origin https://github.com/YOUR_USERNAME/ggsd.git
+# Add GitHub as remote (replace jaeebz)
+git remote add origin https://github.com/jaeebz/GGSD.git
 
 # Verify remote is set
 git remote -v
 
 # You should see:
-# origin  https://github.com/YOUR_USERNAME/ggsd.git (fetch)
-# origin  https://github.com/YOUR_USERNAME/ggsd.git (push)
+# origin  https://github.com/jaeebz/GGSD.git (fetch)
+# origin  https://github.com/jaeebz/GGSD.git (push)
 ```
 
 ---
@@ -100,7 +100,7 @@ git push -u origin main
 # Enumerating objects: XX, done.
 # Counting objects: 100% (XX/XX), done.
 # ...
-# To https://github.com/YOUR_USERNAME/ggsd.git
+# To https://github.com/jaeebz/GGSD.git
 #  * [new branch]      main -> main
 ```
 
@@ -110,7 +110,7 @@ git push -u origin main
 
 ### Add Topics (Keywords)
 
-1. Go to your repo: `https://github.com/YOUR_USERNAME/ggsd`
+1. Go to your repo: `https://github.com/jaeebz/GGSD`
 2. Click the ⚙️ gear icon next to "About"
 3. Add topics:
    - `gemini`
@@ -312,14 +312,14 @@ Update the top of your `README.md` with badges:
 # GGSD (Gemini Get Shit Done)
 
 [![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)](./LICENSE)
-[![GitHub Stars](https://img.shields.io/github/stars/YOUR_USERNAME/ggsd?style=for-the-badge)](https://github.com/YOUR_USERNAME/ggsd/stargazers)
+[![GitHub Stars](https://img.shields.io/github/stars/jaeebz/ggsd?style=for-the-badge)](https://github.com/jaeebz/GGSD/stargazers)
 [![Node Version](https://img.shields.io/badge/node-%3E%3D18.0.0-brightgreen?style=for-the-badge&logo=node.js)](https://nodejs.org/)
-[![Tests](https://img.shields.io/github/actions/workflow/status/YOUR_USERNAME/ggsd/test.yml?branch=main&style=for-the-badge&label=tests)](https://github.com/YOUR_USERNAME/ggsd/actions)
+[![Tests](https://img.shields.io/github/actions/workflow/status/jaeebz/ggsd/test.yml?branch=main&style=for-the-badge&label=tests)](https://github.com/jaeebz/GGSD/actions)
 
 **A spec-driven development workflow system adapted for Google's Gemini CLI with MCP integration**
 ```
 
-Replace `YOUR_USERNAME` with your actual GitHub username.
+Replace `jaeebz` with your actual GitHub username.
 
 ```bash
 git add README.md
@@ -438,7 +438,7 @@ Track development progress:
 ## GGSD Adaptation
 
 **Gemini adaptation and MCP integration:**
-- **[Your Name]** - [GitHub](https://github.com/YOUR_USERNAME)
+- **[Your Name]** - [GitHub](https://github.com/jaeebz)
 
 ## Contributors
 
@@ -469,12 +469,12 @@ When you have a working version:
   "version": "0.1.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/YOUR_USERNAME/ggsd.git"
+    "url": "https://github.com/jaeebz/GGSD.git"
   },
   "bugs": {
-    "url": "https://github.com/YOUR_USERNAME/ggsd/issues"
+    "url": "https://github.com/jaeebz/GGSD/issues"
   },
-  "homepage": "https://github.com/YOUR_USERNAME/ggsd#readme"
+  "homepage": "https://github.com/jaeebz/GGSD#readme"
 }
 ```
 
@@ -589,7 +589,7 @@ In every commit, file, and release:
 # 3. Use token as password
 
 # Or switch to SSH:
-git remote set-url origin git@github.com:YOUR_USERNAME/ggsd.git
+git remote set-url origin git@github.com:jaeebz/ggsd.git
 ```
 
 ### Push Rejected

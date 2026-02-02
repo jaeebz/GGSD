@@ -181,7 +181,7 @@ ggsd/
    ```bash
    # Create repo on GitHub
    # Then:
-   git remote add origin https://github.com/YOUR_USERNAME/ggsd.git
+   git remote add origin https://github.com/jaeebz/GGSD.git
    git branch -M main
    git push -u origin main
    ```
@@ -387,7 +387,7 @@ You now have:
 
 ```bash
 # Setup
-git clone https://github.com/YOUR_USERNAME/ggsd.git
+git clone https://github.com/jaeebz/GGSD.git
 cd ggsd
 ./setup.sh
 

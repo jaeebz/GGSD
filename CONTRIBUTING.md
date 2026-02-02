@@ -17,7 +17,7 @@ GGSD aims to bring the powerful spec-driven development workflow of GSD to the G
 
 ```bash
 # Clone the repo
-git clone https://github.com/YOUR_USERNAME/ggsd.git
+git clone https://github.com/jaeebz/GGSD.git
 cd ggsd
 
 # Install dependencies
@@ -111,7 +111,7 @@ Improving and expanding docs:
 
 ### 1. Pick an Issue
 
-Check [GitHub Issues](https://github.com/YOUR_USERNAME/ggsd/issues) for:
+Check [GitHub Issues](https://github.com/jaeebz/GGSD/issues) for:
 - `good first issue` - Good for newcomers
 - `help wanted` - Need contributors
 - `priority` - High impact

@@ -161,7 +161,7 @@ Complete guide to all GGSD documentation.
 
 1. [INSTALLATION.md](INSTALLATION.md) - Troubleshooting section
 2. [QUICKSTART.md](QUICKSTART.md) - Common workflows
-3. [GitHub Issues](https://github.com/YOUR_USERNAME/ggsd/issues)
+3. [GitHub Issues](https://github.com/jaeebz/GGSD/issues)
 4. [Original GSD](https://github.com/glittercowboy/get-shit-done) - Reference
 
 **Estimated time**: 10-30 minutes
@@ -342,9 +342,9 @@ This is non-negotiable and included in every documentation file.
 ## 📮 Feedback
 
 Found an issue in the docs?
-- [Open an issue](https://github.com/YOUR_USERNAME/ggsd/issues/new)
-- [Start a discussion](https://github.com/YOUR_USERNAME/ggsd/discussions)
-- [Submit a PR](https://github.com/YOUR_USERNAME/ggsd/pulls)
+- [Open an issue](https://github.com/jaeebz/GGSD/issues/new)
+- [Start a discussion](https://github.com/jaeebz/GGSD/discussions)
+- [Submit a PR](https://github.com/jaeebz/GGSD/pulls)
 
 Want a specific topic covered?
 - Request it in discussions

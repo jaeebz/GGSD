@@ -65,7 +65,7 @@ GGSD brings the powerful spec-driven development workflow of GSD to the Gemini e
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/ggsd.git
+git clone https://github.com/jaeebz/GGSD.git
 cd ggsd
 
 # Install dependencies
