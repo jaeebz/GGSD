@@ -132,22 +132,22 @@ async function conductResearch(projectInfo) {
     ];
     
     spin.text = 'Researching stack, features, architecture, and pitfalls...';
-    const results = await client.spawnAgentsParallel(researchPrompts);
+    
+    // Spawn agents and get JSON responses directly
+    const [stack, features, architecture, pitfalls] = await Promise.all([
+      client.generateJSON(MODELS.RESEARCH, researchPrompts[0].prompt),
+      client.generateJSON(MODELS.RESEARCH, researchPrompts[1].prompt),
+      client.generateJSON(MODELS.RESEARCH, researchPrompts[2].prompt),
+      client.generateJSON(MODELS.RESEARCH, researchPrompts[3].prompt)
+    ]);
+    
+    const research = { stack, features, architecture, pitfalls };
     
     spin.succeed('Research complete');
-    
-    // Parse JSON results
-    const research = {
-      stack: JSON.parse(results[0]),
-      features: JSON.parse(results[1]),
-      architecture: JSON.parse(results[2]),
-      pitfalls: JSON.parse(results[3])
-    };
-    
     return research;
     
   } catch (err) {
-    spin.fail('Research failed');
+    spin.fail('Research failed: ' + err.message);
     log.warning('Continuing without research');
     return null;
   }
