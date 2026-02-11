@@ -110,6 +110,23 @@ program
     await newMilestone(name);
   });
 
+// Session Management
+program
+  .command('pause')
+  .description('Save current work and pause session')
+  .action(async () => {
+    const { pauseWork } = await import('../src/commands/pause.js');
+    await pauseWork();
+  });
+
+program
+  .command('resume')
+  .description('Resume paused session')
+  .action(async () => {
+    const { resumeWork } = await import('../src/commands/resume.js');
+    await resumeWork();
+  });
+
 // Utilities
 program
   .command('quick')
@@ -167,6 +184,10 @@ program
     console.log(chalk.bold('Milestones:'));
     console.log('  ggsd complete-milestone       Archive and tag');
     console.log('  ggsd new-milestone [name]     Start next version\n');
+    
+    console.log(chalk.bold('Session Management:'));
+    console.log('  ggsd pause                    Save and pause work');
+    console.log('  ggsd resume                   Resume paused session\n');
     
     console.log(chalk.bold('Utilities:'));
     console.log('  ggsd quick                    Ad-hoc task');
