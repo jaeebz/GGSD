@@ -1,6 +1,8 @@
 # GGSD (Gemini Get Shit Done)
 
-**A spec-driven development workflow system adapted for Google's Gemini CLI with MCP integration**
+**Making Software Development Accessible to Everyone**
+
+*An AI-powered development assistant that guides you from idea to working software - no coding experience required.*
 
 [![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)](./LICENSE)
 
@@ -20,15 +22,25 @@ This adaptation maintains the core philosophy and workflow of GSD while reimagin
 
 ## 🎯 What is GGSD?
 
-GGSD brings the powerful spec-driven development workflow of GSD to the Gemini ecosystem. It solves **context rot** - the quality degradation that happens as AI fills its context window - through intelligent workflow orchestration.
+GGSD is an **intelligent development assistant** that helps anyone build software - from complete beginners to experienced developers. Through AI-guided conversations, it transforms your ideas into working applications.
 
-### Core Philosophy (from GSD)
+### 🌟 New Vision: Democratizing Software Development
 
-> "The complexity is in the system, not in your workflow."
+> "Build what you want, learn to code in the process"
 
-- **No enterprise theater** - No sprint ceremonies, story points, or Jira workflows
-- **Just build** - Describe what you want, get it built correctly
-- **Consistent quality** - Context engineering ensures reliability at scale
+**Key Features**:
+- **🎓 Educational by Design** - Learn while building, not before
+- **🎯 Template-Driven** - 10+ project types with pre-configured stacks
+- **💬 Conversational** - "20 Questions" approach to project definition
+- **🔄 Flexible** - Pivot and change direction anytime
+- **🚀 Rapid Prototyping** - Hours to MVP, not weeks
+
+### Core Philosophy
+
+- **Non-Technical First** - Assume zero coding knowledge
+- **No enterprise theater** - No sprint ceremonies or Jira workflows
+- **Just build** - Describe what you want, get it built
+- **Learn by doing** - Understand the code you create
 
 ---
 
@@ -312,10 +324,22 @@ npm run test-gemini
 
 ## 📖 Documentation
 
-- [Full Documentation](./docs/README.md)
-- [MCP Server Guide](./docs/MCP_SERVERS.md)
-- [Migration from GSD](./docs/MIGRATION.md)
-- [API Reference](./docs/API.md)
+### Getting Started
+- 📘 [Quick Start Guide](./QUICKSTART.md) - Get up and running in 15 minutes
+- 🛠️ [Installation Guide](./INSTALLATION.md) - Detailed setup instructions
+- ✅ [Setup Checklist](./SETUP_CHECKLIST.md) - Step-by-step setup verification
+
+### Core Concepts
+- 🎯 **[Vision & Philosophy](./VISION.md)** - Our mission to democratize development
+- 📦 **[Project Templates](./TEMPLATES.md)** - 10+ pre-configured project types  
+- 🏗️ [Architecture Guide](./docs/ARCHITECTURE.md) - How GGSD works internally
+- 🗺️ [Development Roadmap](./ROADMAP.md) - What we're building next
+
+### Contributing & Development
+- 🤝 [Contributing Guide](./CONTRIBUTING.md) - How to help build GGSD
+- 🐙 [GitHub Setup](./GITHUB.md) - Push your GGSD fork
+- 📊 [Project Summary](./PROJECT_SUMMARY.md) - What we've built so far
+- 📚 [Full Documentation Index](./docs/README.md) - All documentation
 
 ---
 
